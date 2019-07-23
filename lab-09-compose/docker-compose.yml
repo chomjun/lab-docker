@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  web-green:
+    image: chomjun/nginx:lab-green
+    ports:
+      - "2081:80"
+    deploy:
+      replicas: 1
+
+  web-blue:
+    image: chomjun/nginx:lab-blue
+    ports:
+      - "2082:80"
+    deploy:
+      replicas: 3
