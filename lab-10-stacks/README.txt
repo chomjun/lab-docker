@@ -1,4 +1,4 @@
-##lab-09-compose:
+##lab-10-stacks:
 
 # docker stack deploy --compose-file docker-compose.yml stacksv
 # docker service ls
